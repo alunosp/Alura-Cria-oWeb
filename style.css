@@ -1,0 +1,80 @@
+body {
+    color: whitesmoke;
+    background-color: lightslategrey;
+    margin: 0px;
+    font-family: "Oswald", sans-serif;
+
+}
+/* //////////////////////////////////////// */
+header {
+    padding: 10px;
+    font-size: 20px;
+    color: black;
+    border-bottom: solid 2px black;
+    text-align: center;
+}
+li {
+    display: inline-block;
+    text-align: center;
+    
+    
+}
+li a {
+    text-decoration: none;
+    text-transform: uppercase;
+    padding: 20px;
+    color: rgb(6, 59, 6);
+}
+li a:hover {
+    text-decoration: darkgreen;
+    background-color: whitesmoke;
+    border-radius: 25px;
+}
+/* //////////////////////////////////////// */
+section {
+    color: black;
+    background-color: azure;
+    padding-bottom: 40px;
+    padding-top: 40px;
+    display: flex;
+    justify-content: center;
+}
+
+.chamada-texto{
+    margin-right: 20px;
+    
+}
+h1 {
+    font-size: 40px;
+    margin-left: 70px;
+}
+p {
+    margin-left: 70px;
+}
+
+.tumb {
+    position: relative;
+    margin-right: 50px;
+
+}
+/* //////////////////////////////////////// */
+.secao {
+    display: flex;
+    padding: 10px;
+    
+}
+
+.secao div {
+    padding: 40px;
+}
+.imagens img {
+    height: 60px;
+    height: 120px;
+    opacity: 0.5;
+}
+
+.imagens img:hover{
+    height: 60px;
+    height: 120px;
+    opacity: 1.0;
+}
